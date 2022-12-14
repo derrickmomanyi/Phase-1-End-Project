@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     characterQuotes()
     fetchCharacters()
     fetchHouses()
+
+createQuotes()
 })
 
 
@@ -105,14 +107,15 @@ function displayHouses(house) {
  const region = document.getElementById("region")
  region.innerHTML = `Region: ${house.region}`
 
-createQuotes()
 }
 
 function createQuotes(){
   let form = document.getElementById('form')
   let table = document.getElementById('tableBody')
+  let name = document.getElementById('name')
   form.addEventListener('submit', (e) =>{
   e.preventDefault()
+  
     fetch('https://api.gameofthronesquotes.xyz/v1/characters', {
       method: 'POST',
     body: JSON.stringify({
