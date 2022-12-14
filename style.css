@@ -1,0 +1,48 @@
+/* body{
+    background-image: url('https://cdn.wallpapersafari.com/61/98/n5wXEt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+} */
+
+
+#house-bar {
+  height: 15vh; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 3vh;
+}
+
+#house-bar span:hover {
+  padding: 1%;
+  height: 80%;
+  width: 8vw;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5vh;
+ 
+  border-radius: 8em;
+  border: 1px solid white;
+  justify-content: space-between;
+}
+
+.houseInfo{
+  height: 550px;
+  padding: 30px;
+  font-size: 24px;
+ 
+  text-align: center;
+}
+
+.card{
+ 
+  margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px;
+  justify-content: center;
+  border: dotted;
+  text-align: center;
+}
+
