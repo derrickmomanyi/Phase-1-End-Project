@@ -1,5 +1,6 @@
 /* body{
    background-color: black;
+   background-image: url('https://images.hdqwalls.com/download/game-of-thrones-2020-4k-4a-3840x2160.jpg')
 
 } */
 
@@ -38,7 +39,7 @@
 }
 
 .card{
-  color: aliceblue;
+  color: black;
   margin: 0 auto; 
   float: none; 
   margin-bottom: 10px;
