@@ -1,5 +1,5 @@
 # Phase-1-End-Project
-
+In this project I''ll be working on GAME OF THRONES APP, an app that displays character information, quotes and houses.
 # TABLE OF CONTENTS
 
 This README consists of the Project Requirements, author, licences and few explanations
@@ -59,6 +59,8 @@ The Javascript fetches the data from a local server and displays it on the DOM. 
    => The entire app run on a single page, the project contained a single HTML file
    => Interactivity, adding comments.
 
+# Link
+Here lies the link to the live site 'https://resonant-brigadeiros-08a31e.netlify.app'
 
 # Author
  Derrick Momanyi
