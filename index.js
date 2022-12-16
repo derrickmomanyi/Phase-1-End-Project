@@ -1,6 +1,5 @@
 let url1 = 'https://thronesapi.com/api/v2/Characters'                  //first api
 let url2 = 'https://json-mock-cp-xpzx.onrender.com/quotes'                              //second api
-let url3 = 'https://anapioficeandfire.com/api/houses'
 document.addEventListener('DOMContentLoaded', () => {                  //this is an event listener that allows the rest of the html to load before our code loads
     characterQuotes()
     fetchCharacters()
@@ -74,7 +73,7 @@ function renderQuotes(characters){
 }
 
 function fetchHouses() {                                              //function to fetch the character houses from our third api
-  fetch(url3)
+  fetch('https://anapioficeandfire.com/api/houses')
          .then((res) => res.json())                                   //converts our api data to readable JSON format
          .then((data) => renderHouses(data))                          //renders our data to the DOM
 
