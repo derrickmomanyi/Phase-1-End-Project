@@ -36,7 +36,7 @@ The Javascript fetches the data from a local server and displays it on the DOM. 
 
  The details were rendered in a card.
 
- 2. Second api was 'https://api.gameofthronesquotes.xyz/v1/characters' which fetched the famous character quotes from characters in Game of Thrones. The api includes;
+ 2. Second api was 'https://json-mock-cp-xpzx.onrender.com/quotes' which fetched the famous character quotes from characters in Game of Thrones. The api includes;
  =>name
  =>house
  =>quotes
