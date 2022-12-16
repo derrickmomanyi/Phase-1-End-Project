@@ -1,5 +1,5 @@
 let url1 = 'https://thronesapi.com/api/v2/Characters'                  //first api
-let url2 = 'https://api.gameofthronesquotes.xyz/v1/characters'         //second api
+let url2 = 'https://json-mock-cp-xpzx.onrender.com/quotes'                              //second api
 document.addEventListener('DOMContentLoaded', () => {                  //this is an event listener that allows the rest of the html to load before our code loads
     characterQuotes()
     fetchCharacters()
@@ -38,7 +38,7 @@ function renderData(character){
        
         `
    
-                                                       //displays the list of characters in the div in the card we created
+                                                           //displays the list of characters in the div in the card we created
    
     })
 
@@ -116,7 +116,7 @@ function createQuotes(){                                                        
   form.addEventListener('submit', (e) =>{                                         //adds a submit event listener to submit the inputted details
   e.preventDefault()
   
-    fetch('https://api.gameofthronesquotes.xyz/v1/characters', {                   //a post method that takes in; name, house & quotes values        
+      const postQuote = {                   //a post method that takes in; name, house & quotes values        
       method: 'POST',
     body: JSON.stringify({
       name: name.value,
@@ -128,7 +128,8 @@ function createQuotes(){                                                        
       'Content-Type': 'application/json'
   
     }
-    })
+    }
+    fetch('https://json-mock-cp-xpzx.onrender.com/quotes', postQuote)
     .then((res) => res.json())                                                   //converts our data to JSON format
     .then((character) => {                                                       //for the data display it on the DOM
       table.innerHTML += `
