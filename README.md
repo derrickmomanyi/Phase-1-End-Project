@@ -51,7 +51,7 @@ The Javascript fetches the data from a local server and displays it on the DOM. 
  The details were rendered in a card.
 
  4.POST FORM
- On the Quotes table, I added a form which you would input the name, house name and a quote on the DOM and it would be stored in a database. 
+ On the Quotes table, I added a form which you would input the name, house name and a quote on the DOM and it would be stored in a database,then rendered in the page. You can check your input results in the form. 
 
  I managed to achieve all the required project requirements;
 
