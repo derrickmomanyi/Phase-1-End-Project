@@ -1,8 +1,8 @@
 # Phase-1-End-Project
-In this project I''ll be working on GAME OF THRONES APP, an app that displays character information, quotes and houses.
+In this project I'll be working on GAME OF THRONES APP, an app that displays character information, quotes and houses.
 # TABLE OF CONTENTS
 
-This README consists of the Project Requirements, author, licences and few explanations
+This README consists of the Project Requirements, Author, Licences and a few explanations
 
 ## Project Requirements
 
@@ -15,7 +15,6 @@ As a user, I can;
 
 4. Encounter some interactivity. This could be as simple as adding a "like" button or adding comments. These interactions do not need to persist after reloading the page.
 
-This README consists of the deliverables, author, licences and few explanations
 
 
 
