@@ -116,12 +116,12 @@ function createQuotes(){                                                        
   form.addEventListener('submit', (e) =>{                                         //adds a submit event listener to submit the inputted details
   e.preventDefault()
   
-      const postQuote = {                   //a post method that takes in; name, house & quotes values        
+      const postQuote = {                                                        //a post method that takes in; name, house & quotes values        
       method: 'POST',
     body: JSON.stringify({
-      name: name.value,
-      house: house.value,
-      quote: quote.value,
+      name: name.value,                                                          //takes in the name value
+      house: house.value,                                                        //takes in the house value
+      quote: quote.value,                                                        //takes in the quote value
       
     }),
     headers: {
