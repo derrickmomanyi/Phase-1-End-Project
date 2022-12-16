@@ -135,8 +135,8 @@ function createQuotes(){                                                        
       table.innerHTML += `
       <tr>
               <td>${character.name}</td>
-              <td>${character.house.name}</td>
-              <td>${character.quotes}</td>                                  
+              <td>${character.house}</td>
+              <td>${character.quote}</td>                                  
   
          </tr>
       `
